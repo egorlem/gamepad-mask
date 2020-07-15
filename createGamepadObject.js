@@ -14,7 +14,7 @@ const regExpName = {
   secondary: /^.{4}-.{4}-/g,
 };
 
-const __createGamePadObject = function (string, index) {
+function __createGamePadObject(string, index) {
   const padObject = new Object();
   const regExp = (regExp, string) => {
     string = string.match(regExp.primary) || string.match(regExp.secondary);
@@ -49,12 +49,12 @@ const __createGamePadObject = function (string, index) {
   padObject.pid = regExp(regExpPid, string);
   padObject.manufacturer = getManufacturer(padObject.vid);
   return padObject;
-};
+}
 
 const setGamePad = (piece) => {
   if (typeof piece === "string") {
     console.log("\x1b[32m%s\x1b[0m", "Processing...");
-    piece = __createGamePadObject(piece);
+    piece = __createGamePadObject(piece, (i = "INITIAL ID"));
     console.log("\x1b[32m%s\x1b[0m", `Done 1 more`);
     return piece;
   } else if (typeof piece === "object" && piece.constructor === Array) {
