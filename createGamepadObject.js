@@ -27,11 +27,11 @@ function __createGamePadObject(string, index) {
     if (!vid) {
       return null;
     }
-    let result = usb.filter((item) => Object.keys(item) == vid);
+    let [result] = usb.filter((item) => Object.keys(item) == vid);
     if (result == false) {
       return null;
     }
-    return Object.values(result[0]).toString();
+    return Object.values(result).toString();
   };
   const getGamepadName = (title) => {
     if (regExpVid.primary.test(title)) {
