@@ -1,2 +1,2 @@
 # gamepaddatabase
-Gamepad database in json
+Gamepaddatabase in json
