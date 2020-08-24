@@ -1,0 +1,8 @@
+{
+  "id": "INITIAL ID1",
+  "title": "Bluetooth Wireless Controller (Vendor: 2dc8 Product: 6100)",
+  "name": "Bluetooth Wireless Controller",
+  "vid": "2dc8",
+  "pid": "6100",
+  "manufacturer": ["8BitDo"]
+}
