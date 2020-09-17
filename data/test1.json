@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Xbox 360 Controller (XInput STANDARD GAMEPAD)",
+		"id": 1
+	},
+	{
+		"name": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 09cc)",
+		"id": 2
+	},
+	{
+		"name": "Wireless Controller (STANDARD GAMEPAD Vendor: 054c Product: 05c4)",
+		"id": 3
+	},
+	{
+		"name": "xinput",
+		"id": 4
+	},
+	{
+		"name": "054c-09cc-Wireless Controller",
+		"id": 5
+	},
+	{
+		"name": "Generic USB Joystick (Vendor: 0079 Product: 0006)",
+		"id": 6
+	},
+	{
+		"name": "054c-05c4-Wireless Controller",
+		"id": 7
+	},
+	{
+		"name": "USB Joystick (Vendor: 0079 Product: 0006)",
+		"id": 8
+	},
+	{
+		"name": "Twin USB Joystick (Vendor: 0810 Product: 0001)",
+		"id": 9
+	},
+	{
+		"name": "PLAYSTATION(R)3 Controller (Vendor: 054c Product: 0268)",
+		"id": 10
+	},
+	{
+		"name": "vJoy - Virtual Joystick (Vendor: 1234 Product: bead)",
+		"id": 11
+	},
+	{
+		"name": "PS3 GamePad (Vendor: 054c Product: 0268)",
+		"id": 12
+	},
+	{
+		"name": "Pro Controller (STANDARD GAMEPAD Vendor: 057e Product: 2009)",
+		"id": 13
+	},
+	{
+		"name": "Xbox One Controller (STANDARD GAMEPAD Vendor: 045e Product: 02ea)",
+		"id": 14
+	},
+	{
+		"name": "Twin USB Gamepad (Vendor: 0810 Product: 0001)",
+		"id": 15
+	},
+	{
+		"name": "Xbox Wireless Controller (STANDARD GAMEPAD Vendor: 045e Product: 02fd)",
+		"id": 16
+	},
+	{
+		"name": "Logitech Dual Action (STANDARD GAMEPAD Vendor: 046d Product: c216)",
+		"id": 17
+	},
+	{
+		"name": "Sony PLAYSTATION(R)3 Controller (STANDARD GAMEPAD Vendor: 054c Product: 0268)",
+		"id": 18
+	},
+	{
+		"name": "Core (Plus) Wired Controller (Vendor: 20d6 Product: a711)",
+		"id": 19
+	},
+	{
+		"name": "Unknown Gamepad (STANDARD GAMEPAD Vendor: 054c Product: 09cc)",
+		"id": 20
+	}
+]
