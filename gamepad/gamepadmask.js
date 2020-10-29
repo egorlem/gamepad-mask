@@ -20,6 +20,9 @@ const regExp = {
   },
 };
 
+let a = `test string ${name.gecko}\n`;
+let test = false;
+let test2 = this.true;
 let obj = {
   title: "Flight Sim Controls (Vendor: 0079 Product: 0006)",
   name: "Flight Sim Controls",

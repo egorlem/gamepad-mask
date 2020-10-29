@@ -14,6 +14,10 @@ const regExpName = {
   secondary: /^.{4}-.{4}-/g,
 };
 
+let test = 1234;
+const test2 = 3456;
+console.log(test, test2);
+
 function __createGamePadObject(string, index) {
   const padObject = new Object();
   const regExp = (regExp, string) => {
