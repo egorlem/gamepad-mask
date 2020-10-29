@@ -2,7 +2,7 @@ const fs = require("fs");
 const usb = JSON.parse(fs.readFileSync("usbvendorsdb.json", "utf8"));
 const pad = JSON.parse(fs.readFileSync("./gamepadshort.json", "utf8"));
 let test = "Bluetooth Wireless Controller (Vendor: 2dc8 Product: 6100)";
-//const regExpClear = /\t(.+)/g;
+// const regExpClear = /\t(.+)/g;
 const regExpVid = {
   primary: /(?<=Vendor:\s).{4}/,
   secondary: /(?<=^).{4}(?=-.{4}-)/,
@@ -15,6 +15,8 @@ const regExpName = {
   primary: /\s\(.*Vendor:\s.*Product:.*\)/g,
   secondary: /^.{4}-.{4}-/g,
 };
+let int = 1000000;
+console.log(int.length === 100000);
 
 let singleGamepadObject = Object.create(
   {
@@ -97,6 +99,11 @@ class Joystick {
 
 joy = new Joystick("name", 2);
 
+class TestClass {
+  constructor(_var) {
+    this.testvar = _var;
+  }
+}
 
 // let res34 = pad.map((e, i) => new Joystick(e, i));
 // console.log(JSON.stringify(res34, null, 2));

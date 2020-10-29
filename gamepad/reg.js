@@ -32,7 +32,7 @@ const regExp = {
   },
 };
 
-let str = "Любо, братцы, любо! test";
+let newString = "new string\n";
 let reg = str.match(/\s/g);
 let reg2 = str.match(/test$/gi);
 const baseName =
