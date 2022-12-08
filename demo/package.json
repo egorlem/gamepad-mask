@@ -13,7 +13,7 @@
   "author": "Egor L",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "install": "^0.13.0",
     "mongoose": "^5.10.11",
     "nodemon": "^2.0.6",
